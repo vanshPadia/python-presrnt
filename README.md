@@ -37,3 +37,14 @@ Explanation:
         Exit: Exits the function.
 
 This approach ensures that the tuple remains immutable during the user's interaction while providing the functionality to manipulate its contents.
+
+
+
+
+### Explanation:
+- **Initialization**: `my_string` is initialized as an empty string.
+- **Adding Initial Characters**: The function prompts the user for the number of characters to add initially and then takes input for each character.
+- **Menu Options**:
+  - **Add Character to String**: Adds a character to the end of the string.
+  - **Remove Character from String**: Removes the first occurrence of a character from the string.
+  - **Print String**: Prints the current state
