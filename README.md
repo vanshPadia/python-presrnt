@@ -23,3 +23,17 @@ Explanation:
         Exit: Exits the function.
 
 This code provides a user-interactive way to manipulate a dictionary using common dictionary methods.
+Explanation:
+
+    Initialization: my_tuple is initialized as an empty tuple.
+    Adding Initial Items: The function prompts the user for the number of items to add initially and then takes input for each item.
+    Menu Options:
+        Add Item to Tuple: Converts the tuple to a list, appends the item, and converts it back to a tuple.
+        Remove Item from Tuple: Converts the tuple to a list, removes the item if it exists, and converts it back to a tuple.
+        Print Tuple: Prints the current state of the tuple.
+        Get Item by Index: Retrieves the item at a specified index, handling invalid indices gracefully.
+        Find Index of Item: Finds and prints the index of a specified item, if it exists in the tuple.
+        Count Occurrences of Item: Counts and prints how many times a specified item occurs in the tuple.
+        Exit: Exits the function.
+
+This approach ensures that the tuple remains immutable during the user's interaction while providing the functionality to manipulate its contents.
